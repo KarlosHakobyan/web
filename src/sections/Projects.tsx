@@ -1,49 +1,94 @@
 import FadeIn from '../components/FadeIn'
 import TiltCard from '../components/TiltCard'
 
-import project1 from '../assets/projects/project1.png'
-import project2 from '../assets/projects/project2.png'
-import project3 from '../assets/projects/project3.png'
+//import project1 from '../assets/projects/project1.png'
+//import project2 from '../assets/projects/project2.png'
+//import project3 from '../assets/projects/project3.png'
 
 const projects = [
   {
-    title: 'Betting Platform Systems',
+    title: 'Smart Home Automation System',
 
     description:
-      'Reusable validation logic, dynamic forms and scalable frontend architecture.',
+    'Full-stack smart home management system with device, room and home management, REST API integration and database persistence.',                                                                         
 
-    image: project1,
+   
 
-    github: 'https://github.com/',
-
-    demo: 'https://example.com',
+    github:
+    'https://github.com/KarlosHakobyan/Smart_Home_Project',
   },
 
-  {
-    title: 'Web3 Integration',
+{
+    title: 'Social Recommender',
 
     description:
-      'Wallet connection systems using Wagmi and Web3Modal.',
+      'Graph-based social recommendation system developed in Java. Models users and relationships as a graph and uses BFS traversal to discover connections and generate social recommendations.',                                            
 
-    image: project2,
+    
 
-    github: 'https://github.com/',
+    github:
+      'https://github.com/KarlosHakobyan/SocialRecommender',
 
-    demo: 'https://example.com',
+    demo: '',
   },
 
-  {
-    title: 'React SPA SEO',
+{
+  title: 'Restaurant Reservation System',
 
-    description:
-      'SEO optimization for React SPA applications using react-helmet-async.',
+  description:
+    'Backend restaurant reservation system with REST API and relational database architecture. Includes reservation management, stored procedures, transactions, database triggers, indexing and protection against overlapping reservations.',
 
-    image: project3,
+  
 
-    github: 'https://github.com/',
+  github:
+    'https://github.com/KarlosHakobyan/Restaurant_Reservation_System',
 
-    demo: 'https://example.com',
-  },
+  demo: '',
+},
+
+{
+  title: 'Smart Parking System',
+
+  description:
+    'C# desktop application for a smart parking system built with .NET and Windows Forms. Includes a graphical user interface, application configuration and a dedicated Windows installer project.',
+
+  
+
+  github:
+    'https://github.com/KarlosHakobyan/SmartParking',
+
+  demo: '',
+},
+
+{
+  title: 'University Program',
+
+  description:
+    'Multi-project .NET application built with a layered architecture. The solution includes ASP.NET Core API, business logic, data and domain layers, MVC and Blazor applications, console tools and dedicated test projects.',
+
+  //image: project5,
+
+  github:
+    'https://github.com/KarlosHakobyan/UniversityProgram.Api',
+
+  demo: '',
+},
+
+{
+  title: 'IT Faculty Page on the NPUA Website',
+
+  description:
+    'Multi-page educational website developed with HTML, CSS and JavaScript. Includes dedicated pages for Information Systems and Artificial Intelligence systems with custom styling, navigation and visual assets.',
+
+  //image: project6,
+
+  github:
+    'https://github.com/KarlosHakobyan/NPUA_WebPage',
+
+  demo: '',
+},
+
+
 ]
 
 const Projects = () => {
@@ -61,7 +106,7 @@ const Projects = () => {
                 <div className="project-card">
                   <div className="project-image-wrapper">
                     <img
-                      src={project.image}
+                      //src={project.image}
                       alt={project.title}
                       className="project-image"
                     />
@@ -81,7 +126,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="secondary-btn">
+                      <button className="primary-btn">
                         GitHub
                       </button>
                     </a>

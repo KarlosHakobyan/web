@@ -60,7 +60,7 @@ const OrbitSkills = () => {
 
       <div className="orbit-center">
         <img
-          src="/images/me.png"
+          src="./images/me.png"
           alt="Karlos"
           className="orbit-photo"
         />
