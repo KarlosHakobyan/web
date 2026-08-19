@@ -10,7 +10,7 @@ import project6 from '../assets/projects/project6.png'
 import project7 from '../assets/projects/project7.png'
 import project8 from '../assets/projects/project8.png'
 import project9 from '../assets/projects/project9.png'
-
+import project10 from '../assets/projects/project10.png'
 
 const projects = [
   {
@@ -92,6 +92,20 @@ const projects = [
   demo: 'https://karloshakobyan.github.io/Slot_Machine/',
 },
 
+{
+  title: 'Shell Game',
+
+  image: project10,
+
+  description:
+    'Play the iconic 90s Street Shell Game right in your browser! Choose between 3 or 5 shells, keep your eyes on the ball, and test your focus. A simple, thrilling retro game with no downloads required.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Street_Shell_Game',
+
+  demo: 'https://karloshakobyan.github.io/Street_Shell_Game/',
+},
+  
 {
   title: 'Dendy Tankz - Survival Mode',
 
