@@ -38,6 +38,10 @@ const App = () => {
       <Certificates />
 
       <Contact />
+
+      <footer className="footer">
+  © Karlos Hakobyan / 2026
+</footer>
     </>
   )
 }
