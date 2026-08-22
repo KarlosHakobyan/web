@@ -10,6 +10,10 @@ import project6 from '../assets/projects/project6.png'
 import project7 from '../assets/projects/project7.png'
 import project8 from '../assets/projects/project8.png'
 import project9 from '../assets/projects/project9.png'
+import project10 from '../assets/projects/project10.png'
+import project11 from '../assets/projects/project11.png'
+import project12 from '../assets/projects/project12.png'
+import project13 from '../assets/projects/project13.png'
 
 
 const projects = [
@@ -90,6 +94,62 @@ const projects = [
     'https://github.com/KarlosHakobyan/Slot_Machine',
 
   demo: 'https://karloshakobyan.github.io/Slot_Machine/',
+},
+
+{
+  title: 'Shell Game',
+
+  image: project10,
+
+  description:
+    'A classic 1990s-style street shell game built with pure HTML5, CSS3, and JavaScript. Track the red ball hidden under moving brass cups, place your bets, and test your speed and focus!',
+
+  github:
+    'https://github.com/KarlosHakobyan/Street_Shell_Game',
+
+  demo: 'https://karloshakobyan.github.io/Street_Shell_Game/',
+},
+
+{
+  title: 'Red-Black Tree Visualizer',
+
+  image: project11,
+
+  description:
+    'An interactive, high-performance web application for visualizing the step-by-step construction, balancing, and restructuring of Red-Black Trees. Built with pure vanilla HTML, CSS, JavaScript, and SVG rendering.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Red_and_Black',
+
+  demo: 'https://karloshakobyan.github.io/Red_and_Black/',
+},
+
+{
+  title: 'Bubble Sort Visualizer',
+
+  image: project12,
+
+  description:
+    'A lightweight web app built to visualize the Bubble Sort algorithm step-by-step in real time. Built with pure vanilla HTML, CSS and JavaScript.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Bubble_Sort_Visualizer',
+
+  demo: 'https://karloshakobyan.github.io/Bubble_Sort_Visualizer/',
+},
+
+{
+  title: 'Selection Sort Visualizer',
+
+  image: project13,
+
+  description:
+    'An interactive, web-based tool designed to visualize the Selection Sort algorithm step-by-step in real time. This project helps developers and computer science students visually understand how element comparisons and swaps occur during the sorting process.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Selection_Sort_Visualizer',
+
+  demo: 'https://karloshakobyan.github.io/Selection_Sort_Visualizer/',
 },
 
 {
