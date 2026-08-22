@@ -32,8 +32,16 @@ export const ThemeProvider = ({
   }, [])
 
   useEffect(() => {
-    document.body.className =
-      darkMode ? 'dark-theme' : 'light-theme'
+    document.body.classList.remove(
+      'dark-theme',
+      'light-theme',
+    )
+
+    document.body.classList.add(
+      darkMode
+        ? 'dark-theme'
+        : 'light-theme',
+    )
 
     localStorage.setItem(
       'theme',

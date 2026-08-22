@@ -1531,3 +1531,156 @@ section::after {
 
   object-fit: cover;
 }
+
+
+/* ========================================
+   LIGHT MODE - HERO ORBIT
+   ======================================== */
+
+body.light-theme .orbit-item {
+  background:
+    rgba(255, 255, 255, 0.92);
+
+  border: 1px solid
+    rgba(15, 23, 42, 0.10);
+
+  color: #1e293b;
+
+  box-shadow:
+    0 10px 25px
+      rgba(15, 23, 42, 0.12);
+
+  backdrop-filter: blur(12px);
+}
+
+body.light-theme .orbit-item:hover {
+  border-color:
+    rgba(14, 165, 233, 0.45);
+
+  box-shadow:
+    0 12px 30px
+      rgba(14, 165, 233, 0.18);
+}
+
+body.light-theme .orbit-icon {
+  color: #0284c7;
+}
+
+
+/* ========================================
+   LIGHT MODE - ORBIT RINGS
+   ======================================== */
+
+body.light-theme .orbit-center-ring {
+  border-color:
+    rgba(124, 58, 237, 0.22);
+}
+
+body.light-theme .orbit-ring::before {
+  border-color:
+    rgba(14, 165, 233, 0.30);
+
+  box-shadow:
+    0 0 20px
+      rgba(14, 165, 233, 0.10);
+}
+
+
+/* ========================================
+   LIGHT MODE - DOWNLOAD CV
+   ======================================== */
+
+body.light-theme .primary-btn {
+  background:
+    linear-gradient(
+      #ffffff,
+      #ffffff
+    ) padding-box,
+
+    linear-gradient(
+      135deg,
+      #00bfff,
+      #7c3aed
+    ) border-box;
+
+  border: 2px solid transparent;
+
+  color: #0f172a;
+
+  box-shadow:
+    0 8px 25px
+      rgba(15, 23, 42, 0.08);
+}
+
+body.light-theme .primary-btn svg {
+  color: #0284c7;
+}
+
+
+/* ========================================
+   LIGHT MODE - DOWNLOAD CV HOVER
+   ======================================== */
+
+body.light-theme .primary-btn:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #0284c7,
+      #7c3aed
+    ) padding-box,
+
+    linear-gradient(
+      135deg,
+      #00bfff,
+      #7c3aed
+    ) border-box;
+
+  color: #ffffff;
+
+  box-shadow:
+    0 15px 35px
+      rgba(14, 165, 233, 0.22);
+}
+
+body.light-theme .primary-btn:hover svg {
+  color: #ffffff;
+}
+
+
+/* ========================================
+   AVAILABLE FOR WORK
+   ======================================== */
+
+.hero-badge {
+  background: rgba(34, 197, 94, 0.10);
+
+  border-color: rgba(34, 197, 94, 0.35);
+
+  color: #22c55e;
+
+  box-shadow:
+    0 0 20px rgba(34, 197, 94, 0.08);
+}
+
+
+/* ========================================
+   LIGHT MODE
+   ======================================== */
+
+body.light-theme .hero-badge {
+  background: rgba(34, 197, 94, 0.08);
+
+  border-color: rgba(34, 197, 94, 0.35);
+
+  color: #068835;
+
+  box-shadow:
+    0 0 20px rgba(34, 197, 94, 0.08);
+}
+
+body.light-theme .badge-dot {
+  background: #036d2a;
+
+  box-shadow:
+    0 0 10px rgba(34, 197, 94, 0.65);
+}
