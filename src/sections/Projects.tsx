@@ -18,7 +18,18 @@ import project14 from '../assets/projects/project14.png'
 import project15 from '../assets/projects/project15.png'
 import project16 from '../assets/projects/project16.png'
 import project17 from '../assets/projects/project17.png'
-
+import project18 from '../assets/projects/project18.png'
+import project19 from '../assets/projects/project19.png'
+import project20 from '../assets/projects/project20.png'
+import project21 from '../assets/projects/project21.png'
+import project22 from '../assets/projects/project22.png'
+import project23 from '../assets/projects/project23.png'
+import project24 from '../assets/projects/project24.png'
+import project25 from '../assets/projects/project25.png'
+import project26 from '../assets/projects/project26.png'
+import project27 from '../assets/projects/project27.png'
+import project28 from '../assets/projects/project28.png'
+import project29 from '../assets/projects/project29.png'
 
 const projects = [
   {
@@ -84,7 +95,7 @@ const projects = [
 {
     title: 'E-Library',
 
-    image: 'project18',
+    image: project18,
 
     description:
       'A console-based Electronic Library Management System developed in C# as a practical project to master Object-Oriented Programming (OOP) principles.',
@@ -98,7 +109,7 @@ const projects = [
 {
     title: 'Exceptions Practice',
 
-    image: 'project19',
+    image: project19,
 
     description:
       'A console application demonstrating custom exceptions, business logic validation, and robust error handling using try-catch-finally blocks in C#.This project simulates a simplified bank transfer system where users can withdraw, deposit, and transfer funds between bank accounts. It highlights best practices for exception handling in object-oriented programming.',
@@ -112,7 +123,7 @@ const projects = [
 {
     title: 'Collections Practice',
 
-    image: 'project20',
+    image: project20,
 
     description:
       'A comprehensive C# practice repository demonstrating the implementation and usage of core .NET fundamentals, generic collections, standard interfaces (IEnumerable, IComparable, ICloneable), custom dictionary structures, and linear collections (Queue and Stack).',
@@ -126,7 +137,7 @@ const projects = [
   {
     title: 'Delegates Practice',
 
-    image: 'project21',
+    image: project21,
 
     description:
       'Console application demonstrating the core concepts of delegates, multicast delegates, and built-in generic delegate types (Action and Func) in C#.',
@@ -140,7 +151,7 @@ const projects = [
   {
     title: 'Streams Practice',
 
-    image: 'project22',
+    image: project22,
 
     description:
       'A simple C# console application demonstrating fundamental concepts of working with files, StreamWriter, FileStream, and StreamReader in .NET.',
@@ -155,7 +166,7 @@ const projects = [
   {
     title: 'Dependency Injection Practice',
 
-    image: 'project23',
+    image: project23,
 
     description:
       'This project demonstrates the fundamentals of Dependency Injection (DI) in C# using the built-in Microsoft.Extensions.DependencyInjection library. The application simulates an order payment process and allows users to choose between different payment methods. Dependencies are registered in the DI container and injected into services through constructors.',
@@ -170,7 +181,7 @@ const projects = [
   {
     title: 'LINQ Practice',
 
-    image: 'project24',
+    image: project24,
 
     description:
       'A practical C# project focused on learning and practicing LINQ (Language Integrated Query), lambda expressions, and collection manipulation. This project contains hands-on exercises for working with collections of objects using LINQ. It uses a student management scenario to demonstrate filtering, sorting, projection, aggregation, grouping, and querying data. The goal is to understand how to write clean, readable, and efficient C# code using LINQ.',
@@ -184,7 +195,7 @@ const projects = [
    {
     title: 'File Practice',
 
-    image: 'project25',
+    image: project25,
 
     description:
       'This project demonstrates how to work with files in C#, including creating, reading, writing, copying, moving, deleting files, and retrieving file information.',
@@ -198,7 +209,7 @@ const projects = [
    {
     title: 'Serializers Practice',
 
-    image: 'project26',
+    image: project26,
 
     description:
       'A C# console application that demonstrates JSON and XML serialization and deserialization using reusable helper classes. Collects student information from console input. Saves a Student object as either JSON or XML. Loads the saved data back into a Student object. Provides reusable generic helper methods for serialization and deserialization. Supports synchronous file operations and asynchronous file operations in the helper classes. Formats JSON output for readability and XML output with indentation.',
@@ -212,7 +223,7 @@ const projects = [
 {
     title: 'Parallel Practice',
 
-    image: 'project27',
+    image: project27,
 
     description:
       'A C# console application demonstrating asynchronous programming, parallel execution, and multithreading using Task, async/await, and the Parallel class.',
@@ -226,7 +237,7 @@ const projects = [
 {
     title: 'Sorting Algorithms Practice',
 
-    image: 'project28',
+    image: project28,
 
     description:
       'A C# console application that demonstrates and visualizes six popular sorting algorithms. Each algorithm sorts a randomly generated array and displays the sorting process step by step directly in the console.',
@@ -338,7 +349,7 @@ const projects = [
   {
     title: 'ProBet Analyzer & Odds Calculator',
 
-    image: 'project29',
+    image: project29,
 
     description:
       'A high-performance, client-side web application designed for sports bettors and analysts to calculate bookmaker margins, convert odds formats, and evaluate mathematical probabilities in real-time. Built with pure HTML5, modern CSS3, and vanilla JavaScript.',
