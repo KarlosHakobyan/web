@@ -31,6 +31,9 @@ const projects = [
 
     github:
       'https://github.com/KarlosHakobyan/Smart_Home_Project',
+
+    demo:
+      'https://karloshakobyan.github.io/Smart_Home_Project/',
   },
 
   {
@@ -58,6 +61,9 @@ const projects = [
 
     github:
       'https://github.com/KarlosHakobyan/Restaurant_Reservation_System',
+
+    demo:
+      'https://karloshakobyan.github.io/Restaurant_Reservation_System/',
   },
 
   {
@@ -70,8 +76,76 @@ const projects = [
 
     github:
       'https://github.com/KarlosHakobyan/NPUA_WebPage',
-      demo: 'https://karloshakobyan.github.io/NPUA_WebPage/Politex',
+    
+    demo:
+      'https://karloshakobyan.github.io/NPUA_WebPage/Politex',
   },
+
+{
+    title: 'E-Library',
+
+    image: 'project18',
+
+    description:
+      'A console-based Electronic Library Management System developed in C# as a practical project to master Object-Oriented Programming (OOP) principles.',
+
+    github:
+      'https://github.com/KarlosHakobyan/E_Library',
+    demo:
+      'https://karloshakobyan.github.io/E_Library/',
+  },
+
+{
+    title: 'Exceptions - Practice',
+
+    image: 'project19',
+
+    description:
+      'A console application demonstrating custom exceptions, business logic validation, and robust error handling using try-catch-finally blocks in C#.This project simulates a simplified bank transfer system where users can withdraw, deposit, and transfer funds between bank accounts. It highlights best practices for exception handling in object-oriented programming.',
+
+    github:
+      'https://github.com/KarlosHakobyan/Exceptions_Practice',
+    demo:
+      'https://karloshakobyan.github.io/Exceptions_Practice/',
+  },
+
+{
+    title: 'Collections - Practice',
+
+    image: 'project20',
+
+    description:
+      'A comprehensive C# practice repository demonstrating the implementation and usage of core .NET fundamentals, generic collections, standard interfaces (IEnumerable, IComparable, ICloneable), custom dictionary structures, and linear collections (Queue and Stack).',
+
+    github:
+      'https://github.com/KarlosHakobyan/Collections_Practice',
+    demo:
+      'https://karloshakobyan.github.io/Collections_Practice/',
+  },
+
+  {
+    title: 'Delegates - Practice',
+
+    image: 'project21',
+
+    description:
+      'Console application demonstrating the core concepts of delegates, multicast delegates, and built-in generic delegate types (Action and Func) in C#.',
+
+    github:
+      'https://github.com/KarlosHakobyan/Delegates_Practice',
+    demo:
+      'https://karloshakobyan.github.io/Delegates_Practice/',
+  },
+
+
+
+
+
+
+
+
+
+
 
   {
     title: 'Coin Casino',
@@ -262,6 +336,9 @@ const projects = [
 
     github:
       'https://github.com/KarlosHakobyan/SmartParking',
+
+    demo: 
+      'https://karloshakobyan.github.io/SmartParking/',
   },
 
   {
@@ -272,6 +349,9 @@ const projects = [
 
     github:
       'https://github.com/KarlosHakobyan/UniversityProgram.Api',
+
+    demo:
+      'https://karloshakobyan.github.io/UniversityProgram.Api/',
   },
 
 ]
