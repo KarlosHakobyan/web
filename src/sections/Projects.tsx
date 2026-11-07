@@ -14,6 +14,10 @@ import project10 from '../assets/projects/project10.png'
 import project11 from '../assets/projects/project11.png'
 import project12 from '../assets/projects/project12.png'
 import project13 from '../assets/projects/project13.png'
+import project14 from '../assets/projects/project14.png'
+import project15 from '../assets/projects/project15.png'
+import project16 from '../assets/projects/project16.png'
+import project17 from '../assets/projects/project17.png'
 
 
 const projects = [
@@ -69,7 +73,7 @@ const projects = [
       demo: 'https://karloshakobyan.github.io/NPUA_WebPage/Politex',
   },
 
-   {
+  {
     title: 'Coin Casino',
 
     image: project2,
@@ -82,7 +86,7 @@ const projects = [
       demo: 'https://karloshakobyan.github.io/Coin_Game/',
   },
 
-{
+  {
   title: 'Slot Machine',
 
   image: project5,
@@ -94,9 +98,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/Slot_Machine',
 
   demo: 'https://karloshakobyan.github.io/Slot_Machine/',
-},
+  },
 
-{
+  {
   title: 'Shell Game',
 
   image: project10,
@@ -108,9 +112,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/Street_Shell_Game',
 
   demo: 'https://karloshakobyan.github.io/Street_Shell_Game/',
-},
+  },
 
-{
+  {
   title: 'Red-Black Tree Visualizer',
 
   image: project11,
@@ -122,9 +126,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/Red_and_Black',
 
   demo: 'https://karloshakobyan.github.io/Red_and_Black/',
-},
+  },
 
-{
+  {
   title: 'Bubble Sort Visualizer',
 
   image: project12,
@@ -136,9 +140,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/Bubble_Sort_Visualizer',
 
   demo: 'https://karloshakobyan.github.io/Bubble_Sort_Visualizer/',
-},
+  },
 
-{
+  {
   title: 'Selection Sort Visualizer',
 
   image: project13,
@@ -150,9 +154,65 @@ const projects = [
     'https://github.com/KarlosHakobyan/Selection_Sort_Visualizer',
 
   demo: 'https://karloshakobyan.github.io/Selection_Sort_Visualizer/',
-},
+  },
 
-{
+  {
+  title: 'Heap Sort Visualizer',
+
+  image: project14,
+
+  description:
+    'An interactive, feature-rich web application designed to visualize and explore the Heap Sort algorithm in real time. Built with vanilla JavaScript, HTML5, and modern CSS, it features a sleek glassmorphism UI with dark/light mode support, custom dataset importing, heapify and swap step tracking, a real-time zoom mode, and a sorted sequence preview.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Heap_Sort_Visualizer',
+
+  demo: 'https://karloshakobyan.github.io/Heap_Sort_Visualizer/',
+  },
+
+  {
+  title: 'Insertion Sort Visualizer',
+
+  image: project15,
+
+  description:
+    'An interactive web application designed to visualize and explore the Insertion Sort algorithm in real time. Built with vanilla JavaScript, HTML5, and modern CSS, it features a sleek UI with dark/light mode support, custom dataset importing, step-by-step sorting tracking, and an innovative zoom mode for large arrays.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Insertion_Sort_Visualizer',
+
+  demo: 'https://karloshakobyan.github.io/Insertion_Sort_Visualizer/',
+  },
+
+  {
+  title: 'Quick Sort Visualizer',
+
+  image: project16,
+
+  description:
+    'An interactive web application designed to visualize and explore the Quick Sort algorithm in real time. Built with vanilla JavaScript, HTML5, and modern CSS, it features a sleek glassmorphism UI with dark/light mode support, custom dataset importing, pivot tracking, step-by-step sorting, and an innovative zoom mode for large arrays',
+
+  github:
+    'https://github.com/KarlosHakobyan/Quick_Sort_Visualizer',
+
+  demo: 'https://karloshakobyan.github.io/Quick_Sort_Visualizer/',
+  },
+
+  {
+  title: 'Merge Sort Visualizer',
+
+  image: project17,
+
+  description:
+    'An interactive web application designed to visualize and explore the Merge Sort algorithm in real time. Built with vanilla JavaScript, HTML5, and modern CSS, it features a sleek glassmorphism UI with dark/light mode support, custom dataset importing, divide-and-conquer step tracking, a real-time zoom mode, and a sorted sequence preview.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Merge_Sort_Visualizer',
+
+  demo: 'https://karloshakobyan.github.io/Merge_Sort_Visualizer/',
+  },
+
+  {
   title: 'Dendy Tankz - Survival Mode',
 
   image: project3,
@@ -164,9 +224,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/TankZ_Game',
 
   demo: 'https://karloshakobyan.github.io/TankZ_Game/',
-},
+  },
 
-{
+  {
   title: 'Super Mario Game',
 
   image: project6,
@@ -178,9 +238,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/Super_Mario_Game',
 
   demo: 'https://karloshakobyan.github.io/Super_Mario_Game/',
-},
+  },
 
-{
+  {
   title: 'Snake Game',
 
   description:
@@ -192,9 +252,9 @@ const projects = [
     'https://github.com/KarlosHakobyan/Snake_Game',
 
   demo: 'https://karloshakobyan.github.io/Snake_Game/',
-},
+  },
 
-{
+  {
     title: 'Smart Parking System',
 
     description:

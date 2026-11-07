@@ -1,32 +1,33 @@
 import FadeIn from '../components/FadeIn'
 
 const contacts = [
+ 
   {
-    title: 'Email',
-    value: 'karloshakobyan99@gmail.com',
+    title: 'GitHub',
+    value: 'github.com/KarlosHakobyan',
+    link: 'https://github.com/KarlosHakobyan',
   },
-
+   
   {
     title: 'Phone number',
     value: '+374 55 983 883',
   },
 
   {
-    title: 'GitHub',
-    value: 'github.com/KarlosHakobyan',
-    link: 'https://github.com/KarlosHakobyan',
-  },
-
-  {
     title: 'LinkedIn',
     value: 'linkedin.com/in/karlos-hakobyan',
-    link: 'https://linkedin.com/karlos-hakobyan',
+    link: 'https://linkedin.com/in/karlos-hakobyan',
   },
 
   {
     title: 'Facebook',
     value: 'facebook.com/KarlosHakobyan',
     link: 'https://facebook.com/KarlosHakobyan',
+  },
+
+  {
+    title: 'Email',
+    value: 'karloshakobyan99@gmail.com',
   },
 
   {

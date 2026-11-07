@@ -8,6 +8,8 @@ const educationList = [
 
     description:
       'Bachelor Degree — Information Sciences and Computing Technologies - Banking automation',
+
+    link: 'https://polytech.am/',
   },
 
   {
@@ -17,6 +19,8 @@ const educationList = [
 
     description:
       'Master Degree — Information Sciences and Computing Technologies - Business Automation',
+
+    link: 'https://polytech.am/',
   },
 
   {
@@ -26,6 +30,8 @@ const educationList = [
 
     description:
       '.Net(Core) and Asp.Net(Core) advanced course',
+
+    link: 'https://aca.am/',
   },
 
   {
@@ -35,15 +41,19 @@ const educationList = [
 
     description:
       'Courses of C#, .Net, Asp.Net and Data Engineering',
+
+    link: 'https://www.softconstruct.com/',
   },
 
-    {
+  {
     year: '2025',
 
     title: 'Microsoft',
 
     description:
       'Courses of Foundational C#',
+
+    link: 'https://learn.microsoft.com/',
   },
 ]
 
@@ -76,6 +86,18 @@ const Education = () => {
                   <p>
                     {item.description}
                   </p>
+
+                  <div className="education-buttons">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="primary-btn">
+                        Open Website
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
