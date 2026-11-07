@@ -96,7 +96,7 @@ const projects = [
   },
 
 {
-    title: 'Exceptions - Practice',
+    title: 'Exceptions Practice',
 
     image: 'project19',
 
@@ -110,7 +110,7 @@ const projects = [
   },
 
 {
-    title: 'Collections - Practice',
+    title: 'Collections Practice',
 
     image: 'project20',
 
@@ -124,7 +124,7 @@ const projects = [
   },
 
   {
-    title: 'Delegates - Practice',
+    title: 'Delegates Practice',
 
     image: 'project21',
 
@@ -137,55 +137,104 @@ const projects = [
       'https://karloshakobyan.github.io/Delegates_Practice/',
   },
 
-
-
-
-
-
-
-
-
-
-
   {
-    title: 'Coin Casino',
+    title: 'Streams Practice',
 
-    image: project2,
+    image: 'project22',
 
     description:
-      'Real-time multiplayer 3D coin-toss game with interactive coin animations, live betting feeds, dynamic wager and multiplier calculations, and responsive gameplay UI.',
+      'A simple C# console application demonstrating fundamental concepts of working with files, StreamWriter, FileStream, and StreamReader in .NET.',
 
     github:
-      'https://github.com/KarlosHakobyan/NPUA_WebPage',
-      demo: 'https://karloshakobyan.github.io/Coin_Game/',
+      'https://github.com/KarlosHakobyan/Streams_Practice',
+    demo:
+      'https://karloshakobyan.github.io/Streams_Practice/',
   },
 
+
   {
-  title: 'Slot Machine',
+    title: 'Dependency Injection Practice',
 
-  image: project5,
+    image: 'project23',
 
-  description:
-    'Feature-rich browser slot machine built with pure JavaScript and HTML5 Canvas. Includes realistic reel physics, five paylines, auto-spin, dynamic chip betting, Web Audio API sound effects and a risk-based card gamble mini-game.',
+    description:
+      'This project demonstrates the fundamentals of Dependency Injection (DI) in C# using the built-in Microsoft.Extensions.DependencyInjection library. The application simulates an order payment process and allows users to choose between different payment methods. Dependencies are registered in the DI container and injected into services through constructors.',
 
-  github:
-    'https://github.com/KarlosHakobyan/Slot_Machine',
-
-  demo: 'https://karloshakobyan.github.io/Slot_Machine/',
+    github:
+      'https://github.com/KarlosHakobyan/DependencyInjections_Practice',
+    demo:
+      'https://karloshakobyan.github.io/DependencyInjections_Practice/',
   },
 
+
   {
-  title: 'Shell Game',
+    title: 'LINQ Practice',
 
-  image: project10,
+    image: 'project24',
 
-  description:
-    'A classic 1990s-style street shell game built with pure HTML5, CSS3, and JavaScript. Track the red ball hidden under moving brass cups, place your bets, and test your speed and focus!',
+    description:
+      'A practical C# project focused on learning and practicing LINQ (Language Integrated Query), lambda expressions, and collection manipulation. This project contains hands-on exercises for working with collections of objects using LINQ. It uses a student management scenario to demonstrate filtering, sorting, projection, aggregation, grouping, and querying data. The goal is to understand how to write clean, readable, and efficient C# code using LINQ.',
 
-  github:
-    'https://github.com/KarlosHakobyan/Street_Shell_Game',
+    github:
+      'https://github.com/KarlosHakobyan/LINQ_Practice',
+    demo:
+      'https://karloshakobyan.github.io/LINQ_Practice/',
+  },
 
-  demo: 'https://karloshakobyan.github.io/Street_Shell_Game/',
+   {
+    title: 'File Practice',
+
+    image: 'project25',
+
+    description:
+      'This project demonstrates how to work with files in C#, including creating, reading, writing, copying, moving, deleting files, and retrieving file information.',
+
+    github:
+      'https://github.com/KarlosHakobyan/File_Practice',
+    demo:
+      'https://karloshakobyan.github.io/File_Practice/',
+  },
+
+   {
+    title: 'Serializers Practice',
+
+    image: 'project26',
+
+    description:
+      'A C# console application that demonstrates JSON and XML serialization and deserialization using reusable helper classes. Collects student information from console input. Saves a Student object as either JSON or XML. Loads the saved data back into a Student object. Provides reusable generic helper methods for serialization and deserialization. Supports synchronous file operations and asynchronous file operations in the helper classes. Formats JSON output for readability and XML output with indentation.',
+
+    github:
+      'https://github.com/KarlosHakobyan/Serializers_Practice',
+    demo:
+      'https://karloshakobyan.github.io/Serializers_Practice/',
+  },
+
+{
+    title: 'Parallel Practice',
+
+    image: 'project27',
+
+    description:
+      'A C# console application demonstrating asynchronous programming, parallel execution, and multithreading using Task, async/await, and the Parallel class.',
+
+    github:
+      'https://github.com/KarlosHakobyan/ParallelProgramming_Practice',
+    demo:
+      'https://karloshakobyan.github.io/ParallelProgramming_Practice/',
+  },
+
+{
+    title: 'Sorting Algorithms Practice',
+
+    image: 'project28',
+
+    description:
+      'A C# console application that demonstrates and visualizes six popular sorting algorithms. Each algorithm sorts a randomly generated array and displays the sorting process step by step directly in the console.',
+
+    github:
+      'https://github.com/KarlosHakobyan/SortingAlgorithms_Practice',
+    demo:
+      'https://karloshakobyan.github.io/SortingAlgorithms_Practice/',
   },
 
   {
@@ -284,6 +333,61 @@ const projects = [
     'https://github.com/KarlosHakobyan/Merge_Sort_Visualizer',
 
   demo: 'https://karloshakobyan.github.io/Merge_Sort_Visualizer/',
+  },
+
+  {
+    title: 'ProBet Analyzer & Odds Calculator',
+
+    image: 'project29',
+
+    description:
+      'A high-performance, client-side web application designed for sports bettors and analysts to calculate bookmaker margins, convert odds formats, and evaluate mathematical probabilities in real-time. Built with pure HTML5, modern CSS3, and vanilla JavaScript.',
+
+    github:
+      'https://github.com/KarlosHakobyan/BettingCalculator',
+    demo:
+      'https://karloshakobyan.github.io/BettingCalculator/',
+  },
+
+  {
+    title: 'Coin Casino',
+
+    image: project2,
+
+    description:
+      'Real-time multiplayer 3D coin-toss game with interactive coin animations, live betting feeds, dynamic wager and multiplier calculations, and responsive gameplay UI.',
+
+    github:
+      'https://github.com/KarlosHakobyan/NPUA_WebPage',
+      demo: 'https://karloshakobyan.github.io/Coin_Game/',
+  },
+
+  {
+  title: 'Slot Machine',
+
+  image: project5,
+
+  description:
+    'Feature-rich browser slot machine built with pure JavaScript and HTML5 Canvas. Includes realistic reel physics, five paylines, auto-spin, dynamic chip betting, Web Audio API sound effects and a risk-based card gamble mini-game.',
+
+  github:
+    'https://github.com/KarlosHakobyan/Slot_Machine',
+
+  demo: 'https://karloshakobyan.github.io/Slot_Machine/',
+  },
+
+  {
+  title: 'Shell Game',
+
+  image: project10,
+
+  description:
+    'A classic 1990s-style street shell game built with pure HTML5, CSS3, and JavaScript. Track the red ball hidden under moving brass cups, place your bets, and test your speed and focus!',
+
+  github:
+    'https://github.com/KarlosHakobyan/Street_Shell_Game',
+
+  demo: 'https://karloshakobyan.github.io/Street_Shell_Game/',
   },
 
   {
